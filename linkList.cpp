@@ -1,7 +1,5 @@
 #include "link.cpp"
 #include "ListIterator.cpp"
-#include <iostream>
-using namespace std;
 
 class LinkList{
 friend ListIterator;

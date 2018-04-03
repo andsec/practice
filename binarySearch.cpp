@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int recFind(int searchKey, int lowerBound, int upperBound, vector<int> vec){
+int recFind(int searchKey, int lowerBound, int upperBound, vector<int> &vec){
 	int curIn;
 
 	curIn = (upperBound + lowerBound)/2;
@@ -40,6 +40,4 @@ int main(){
 		cout << "searchKey found" << endl;
 	}
 	else {cout << "cannot find" << endl;}
-
-
 }
